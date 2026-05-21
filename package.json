@@ -1,0 +1,16 @@
+{
+  "name": "schoomy-calendar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "放課後スクーミー部 月間カレンダー PDF生成（JSON → HTML → Playwright PDF / フォント完全埋め込み）",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "pdf": "node scripts/make-pdf.js",
+    "all": "node scripts/build.js && node scripts/make-pdf.js"
+  },
+  "dependencies": {
+    "@fontsource/archivo-black": "^5.2.5",
+    "@fontsource/m-plus-2": "^5.2.5",
+    "playwright": "^1.49.0"
+  }
+}
