@@ -260,7 +260,7 @@ ${css}
   </div>
 
   <div class="footer">
-    <div>発行：<strong>${escapeHtml(meta.publisher || '')}</strong>　${escapeHtml(meta.publisher_addr || '')}</div>
+    <div class="footer-l">発行：<strong>${escapeHtml(meta.publisher || '')}</strong>　${escapeHtml(meta.publisher_addr || '')}</div>
     <div class="footer-c"><strong>${escapeHtml(meta.portal_url || '')}</strong></div>
     <div class="footer-r">${year}.${String(month).padStart(2, '0')}  ${escapeHtml(meta.issue_no_short || '')}　<strong>SchooMy, Inc.</strong></div>
   </div>

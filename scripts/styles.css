@@ -476,3 +476,4 @@
   .footer strong { color: var(--ink); font-weight: 700; }
   .footer-c { text-align: center; }
   .footer-r { text-align: right; }
+  .footer-l { font-size: 5.6pt; line-height: 1.3; }
