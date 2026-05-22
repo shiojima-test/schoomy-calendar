@@ -1,12 +1,12 @@
 {
   "meta": {
     "year": 2026,
-    "month": 5,
-    "month_en": "MAY",
-    "month_jp": "皐月",
-    "issue_label": "2026年5月号",
-    "issue_no_short": "No. 05",
-    "publish_date": "2026.05.04",
+    "month": 6,
+    "month_en": "JUNE",
+    "month_jp": "水無月",
+    "issue_label": "2026年6月号",
+    "issue_no_short": "No. 06",
+    "publish_date": "2026.06.01",
     "title_main": "スクーミーワールドカレンダー",
     "title_sub": "／ 放課後スクーミー部予定表",
     "publisher": "株式会社スクーミー",
@@ -15,77 +15,26 @@
   },
   "daily": [
     {
-      "date": "2026-05-01",
+      "date": "2026-06-01",
       "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-05-02",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-05-03",
-      "is_holiday": false,
-      "tag": "出張",
+      "tag": "special",
       "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        },
         {
           "type": "special",
-          "title": "静岡サレジオ高校",
-          "time": "10:00-13:00",
-          "contents": ""
+          "title": "",
+          "time": "オンライン",
+          "contents": "夏の協働探求コンテスト エントリー開始"
         }
       ]
     },
     {
-      "date": "2026-05-04",
-      "is_holiday": true,
-      "tag": "",
-      "events": [
-        {
-          "type": "holiday",
-          "title": "GW休み",
-          "time": "",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-05-05",
-      "is_holiday": true,
-      "tag": "",
-      "events": [
-        {
-          "type": "holiday",
-          "title": "GW休み",
-          "time": "",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-05-06",
-      "is_holiday": true,
-      "tag": "",
-      "events": [
-        {
-          "type": "holiday",
-          "title": "GW休み",
-          "time": "",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-05-07",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-05-08",
+      "date": "2026-06-02",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -98,19 +47,7 @@
       ]
     },
     {
-      "date": "2026-05-09",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-05-10",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-05-11",
+      "date": "2026-06-03",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -123,9 +60,22 @@
       ]
     },
     {
-      "date": "2026-05-12",
-      "is_holiday": false,
-      "tag": "EDIX",
+      "date": "2026-06-04",
+      "is_holiday": true,
+      "tag": "New Education Expo2026",
+      "events": [
+        {
+          "type": "exhibit",
+          "title": "New Education Expo2026東京１日目",
+          "time": "9:00-18:00",
+          "contents": "スクーミースポット展示あり"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-05",
+      "is_holiday": true,
+      "tag": "New Education Expo2026",
       "events": [
         {
           "type": "bukatsu",
@@ -135,16 +85,80 @@
         },
         {
           "type": "exhibit",
-          "title": "EDIX東京1日目",
-          "time": "10:00-18:00",
-          "contents": "吉川先生（静岡サレジオ高校）の事例発表 ／ 読売新聞社様ブース 13:00〜"
+          "title": "New Education Expo2026東京２日目",
+          "time": "9:00-18:00",
+          "contents": ""
         }
       ]
     },
     {
-      "date": "2026-05-13",
+      "date": "2026-06-06",
+      "is_holiday": true,
+      "tag": "New Education Expo2026",
+      "events": [
+        {
+          "type": "exhibit",
+          "title": "New Education Expo2026東京３日目",
+          "time": "9:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-06-07",
       "is_holiday": false,
-      "tag": "EDIX",
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-06-08",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-06-10",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-06-11",
+      "is_holiday": false,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-06-12",
+      "is_holiday": false,
+      "tag": "New Education Expo2026",
       "events": [
         {
           "type": "bukatsu",
@@ -154,27 +168,33 @@
         },
         {
           "type": "exhibit",
-          "title": "EDIX東京2日目",
-          "time": "10:00-18:00",
-          "contents": ""
+          "title": "New Education Expo2026 大阪１日目",
+          "time": "9:30-18:00",
+          "contents": "スクーミスポット展示あり"
         }
       ]
     },
     {
-      "date": "2026-05-14",
+      "date": "2026-06-13",
       "is_holiday": false,
-      "tag": "EDIX",
+      "tag": "New Education Expo2026",
       "events": [
         {
           "type": "exhibit",
-          "title": "EDIX東京3日目",
-          "time": "10:00-17:00",
+          "title": "New Education Expo2026 大阪２日目",
+          "time": "9:30-18:00",
           "contents": ""
         }
       ]
     },
     {
-      "date": "2026-05-15",
+      "date": "2026-06-14",
+      "is_holiday": false,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-06-15",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -187,19 +207,7 @@
       ]
     },
     {
-      "date": "2026-05-16",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-05-17",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-05-18",
+      "date": "2026-06-16",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -212,7 +220,7 @@
       ]
     },
     {
-      "date": "2026-05-19",
+      "date": "2026-06-17",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -225,7 +233,13 @@
       ]
     },
     {
-      "date": "2026-05-20",
+      "date": "2026-06-18",
+      "is_holiday": false,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-06-19",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -238,38 +252,19 @@
       ]
     },
     {
-      "date": "2026-05-21",
+      "date": "2026-06-20",
       "is_holiday": false,
       "tag": "",
       "events": []
     },
     {
-      "date": "2026-05-22",
-      "is_holiday": false,
-      "tag": "説明会",
-      "events": [
-        {
-          "type": "webinar",
-          "title": "顧問説明会",
-          "time": "16:00-18:00",
-          "contents": "スクーミースポットに関するご案内を行います"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-23",
+      "date": "2026-06-21",
       "is_holiday": false,
       "tag": "",
       "events": []
     },
     {
-      "date": "2026-05-24",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-05-25",
+      "date": "2026-06-22",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -282,7 +277,7 @@
       ]
     },
     {
-      "date": "2026-05-26",
+      "date": "2026-06-23",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -295,7 +290,7 @@
       ]
     },
     {
-      "date": "2026-05-27",
+      "date": "2026-06-24",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -308,66 +303,98 @@
       ]
     },
     {
-      "date": "2026-05-28",
+      "date": "2026-06-25",
       "is_holiday": false,
       "tag": "",
       "events": []
     },
     {
-      "date": "2026-05-29",
+      "date": "2026-06-26",
       "is_holiday": false,
-      "tag": "説明会",
+      "tag": "special",
       "events": [
         {
-          "type": "webinar",
-          "title": "顧問説明会",
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
           "time": "16:00-18:00",
-          "contents": "デジ連×ロッテの取り組みのご案内を行います"
+          "contents": ""
+        },
+        {
+          "type": "special",
+          "title": "スクーミーデイ夏2026",
+          "time": "オンライン",
+          "contents": "夏の協働探求コンテスト 予選通過チーム発表"
         }
       ]
     },
     {
-      "date": "2026-05-30",
+      "date": "2026-06-27",
       "is_holiday": false,
       "tag": "",
       "events": []
     },
     {
-      "date": "2026-05-31",
+      "date": "2026-06-28",
       "is_holiday": false,
       "tag": "",
       "events": []
+    },
+    {
+      "date": "2026-06-29",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
     }
   ],
   "pickup": [
     {
-      "type": "special",
-      "date_label": "5/3 (日)",
-      "time": "10:00-13:00",
-      "title": "静岡サレジオ高校 出張部活動",
-      "meta": "インドネシアと繋げてワークショップ"
+      "type": "exhibit",
+      "date_label": "6/4 -6（木-土）",
+      "time": "9:00-18:00",
+      "title": "New Education Expo2026",
+      "meta": "TFTビル（東京ファッションタウン）／スクーミースポット展示あり"
     },
     {
       "type": "exhibit",
-      "date_label": "5/12-14 (火-木)",
-      "time": "10:00-18:00",
-      "title": "EDIX東京 2026 出展",
-      "meta": "東京ビッグサイト／読売新聞ヨミダス様ブース"
+      "date_label": "6/12-13（木-金）",
+      "time": "9:30-18:00",
+      "title": "New Education Expo2026",
+      "meta": "OMM（大阪マーチャンダイズ・マート）／スクーミースポット展示あり"
     },
     {
-      "type": "webinar",
-      "date_label": "5/22, 5/29 (金)",
-      "time": "16:00-18:00",
-      "title": "顧問説明会（ウェビナー）",
-      "meta": "放課後スクーミー部部室／学生・教員向け"
+      "type": "festa",
+      "date_label": "6-26（金）",
+      "time": "",
+      "title": "スクーミーデイ夏2026",
+      "meta": "オンライン／夏の協働探究コンテスト 予選通過チーム発表"
     }
   ],
   "challenge": {
-    "thema_prefix": "5月は",
-    "thema_em": "「メイストームの季節」",
-    "thema_desc": "爽やかな5月晴れの一方で、後半は温帯低気圧が急速に発達し、強風や荒天をもたらします。これが「メイストーム」と呼ばれる現象です。",
-    "mission_html": "複数のスクーミースポットを繋いで<strong>「低気圧の進路観測」</strong>をしてみよう！東西に並んだ学校が同じ時刻に気圧を測ると、低気圧の中心がどこを通ったかがデータで見えてきます。気象庁の天気図と見比べると、ピタリと一致する瞬間が訪れます。",
-    "mission_note": "★ 顧問のカズ先生は山梨本社のスクーミースポットから観測中。一緒にデータを繋げよう。"
+    "thema_prefix": "",
+    "thema_em": "6月は「梅雨の季節」",
+    "thema_desc": "6月は、暖かい空気と冷たい空気が日本列島付近でぶつかります。この境目にできるのが「梅雨前線」です。",
+    "mission_html": "地域によって、梅雨入りの時期も、天気も大きく変わります。 温度の違いと雨の振り方をデータで観測すると、「梅雨前線」見えてきます。 各地のスクーミースポットを繋いで「梅雨前線の把握」をしてみよう。",
+    "mission_note": ""
   },
   "message": {
     "advisor": {
@@ -375,28 +402,24 @@
       "role": "顧問",
       "name": "カズ先生",
       "lang": "ja",
-      "text": "5月となり、学校生活も各所で本格始動しているかと思います。高校生活に限らず、とにかく何でもやってみる、の気持ちを大事にしていってください。私はいつでも放課後スクーミー部で待ってますよ！"
+      "text": "６月をどう乗り越えるかで、今年前半の質が変わります！蒸し蒸しして過ごしにくい日々かもしれませんが、心はカラッと、いつでもワクワクドキドキを！私はいつでも放課後スクーミー部で待ってますよ！"
     },
     "coach": {
       "icon": "M",
       "role": "コーチ",
       "name": "マット先生",
       "lang": "en",
-      "text": "Don't be afraid to try new ideas, make mistakes, and be creative. Let's explore real-world data and sensors together, and turn our ideas into exciting projects!"
+      "text": "Technology becomes truly interesting when we use it to explore the real world. Let’s use sensors, programming, and creativity to discover new ideas and build something unique together!"
     }
   },
   "next": [
     {
-      "date_label": "6/4-6 (木-土)",
-      "html": "<strong>NEW EDUCATION EXPO 2026 東京</strong>　TFTビル　／スクーミースポット展示あり"
+      "date_label": "7/18-20",
+      "html": "出張部活動／甲府南高校　プログラム講座"
     },
     {
-      "date_label": "6/26 (金)",
-      "html": "<strong>スクーミーデイ夏2026</strong>（オンライン）／夏の協働探究コンテスト 予選通過チーム発表"
-    },
-    {
-      "date_label": "6/1〜",
-      "html": "第2回 夏の協働探究コンテスト <strong>エントリー開始</strong>"
+      "date_label": "7/25.26",
+      "html": "すいかばマンコンテスト"
     }
   ]
 }
