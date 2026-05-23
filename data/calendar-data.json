@@ -17,7 +17,7 @@
     {
       "date": "2026-06-01",
       "is_holiday": false,
-      "tag": "special",
+      "tag": "",
       "events": [
         {
           "type": "bukatsu",
@@ -62,20 +62,20 @@
     {
       "date": "2026-06-04",
       "is_holiday": true,
-      "tag": "New Education Expo2026",
+      "tag": "",
       "events": [
         {
           "type": "exhibit",
-          "title": "New Education Expo2026東京１日目",
-          "time": "9:00-18:00",
-          "contents": "スクーミースポット展示あり"
+          "title": "New Education Expo2026 東京１日目",
+          "time": "TFTビル 9:00-18:00",
+          "contents": "スクーミーの体験ができます"
         }
       ]
     },
     {
       "date": "2026-06-05",
       "is_holiday": true,
-      "tag": "New Education Expo2026",
+      "tag": "",
       "events": [
         {
           "type": "bukatsu",
@@ -85,22 +85,22 @@
         },
         {
           "type": "exhibit",
-          "title": "New Education Expo2026東京２日目",
-          "time": "9:00-18:00",
-          "contents": ""
+          "title": "New Education Expo2026 東京２日目",
+          "time": "TFTビル 9:00-18:00",
+          "contents": "スクーミーの体験ができます"
         }
       ]
     },
     {
       "date": "2026-06-06",
       "is_holiday": true,
-      "tag": "New Education Expo2026",
+      "tag": "",
       "events": [
         {
           "type": "exhibit",
-          "title": "New Education Expo2026東京３日目",
-          "time": "9:00-18:00",
-          "contents": ""
+          "title": "New Education Expo2026 東京３日目",
+          "time": "TFTビル 9:00-18:00",
+          "contents": "スクーミーの体験ができます"
         }
       ]
     },
@@ -146,6 +146,12 @@
           "title": "放課後スクーミー部",
           "time": "16:00-18:00",
           "contents": ""
+        },
+        {
+          "type": "event",
+          "title": "Doer Tribe Hamamatsu イベント",
+          "time": "Startup Cross Hamamatsu 18:00-21:00",
+          "contents": "スクーミーの体験ができます"
         }
       ]
     },
@@ -158,7 +164,7 @@
     {
       "date": "2026-06-12",
       "is_holiday": false,
-      "tag": "New Education Expo2026",
+      "tag": "",
       "events": [
         {
           "type": "bukatsu",
@@ -169,21 +175,21 @@
         {
           "type": "exhibit",
           "title": "New Education Expo2026 大阪１日目",
-          "time": "9:30-18:00",
-          "contents": "スクーミスポット展示あり"
+          "time": "OMM 9:30-18:00",
+          "contents": "スクーミーの体験ができます"
         }
       ]
     },
     {
       "date": "2026-06-13",
       "is_holiday": false,
-      "tag": "New Education Expo2026",
+      "tag": "",
       "events": [
         {
           "type": "exhibit",
           "title": "New Education Expo2026 大阪２日目",
-          "time": "9:30-18:00",
-          "contents": ""
+          "time": "OMM 9:30-18:00",
+          "contents": "スクーミーの体験ができます"
         }
       ]
     },
@@ -311,7 +317,7 @@
     {
       "date": "2026-06-26",
       "is_holiday": false,
-      "tag": "special",
+      "tag": "",
       "events": [
         {
           "type": "bukatsu",
@@ -322,8 +328,8 @@
         {
           "type": "special",
           "title": "スクーミーデイ夏2026",
-          "time": "オンライン",
-          "contents": "夏の協働探求コンテスト 予選通過チーム発表"
+          "time": "オンライン 16:00-18:00",
+          "contents": "全国高等学校夏の協働探究コンテスト 予選通過チーム発表"
         }
       ]
     },
@@ -371,20 +377,27 @@
       "type": "exhibit",
       "date_label": "6/4 -6（木-土）",
       "time": "9:00-18:00",
-      "title": "New Education Expo2026",
+      "title": "New Education Expo2026 東京",
       "meta": "TFTビル（東京ファッションタウン）／スクーミースポット展示あり"
     },
     {
       "type": "exhibit",
       "date_label": "6/12-13（木-金）",
       "time": "9:30-18:00",
-      "title": "New Education Expo2026",
+      "title": "New Education Expo2026 大阪",
       "meta": "OMM（大阪マーチャンダイズ・マート）／スクーミースポット展示あり"
     },
     {
       "type": "festa",
-      "date_label": "6-26（金）",
-      "time": "",
+      "date_label": "6/10 （水）",
+      "time": "18:00-21",
+      "title": "Doer Tribe Hamamatsu イベント",
+      "meta": "Startup Cross Hamamatsu"
+    },
+    {
+      "type": "festa",
+      "date_label": "6/26（金）",
+      "time": "16:00-18:00",
       "title": "スクーミーデイ夏2026",
       "meta": "オンライン／夏の協働探究コンテスト 予選通過チーム発表"
     }
@@ -415,11 +428,15 @@
   "next": [
     {
       "date_label": "7/18-20",
-      "html": "出張部活動／甲府南高校　プログラム講座"
+      "html": "放課後スクーミー部出張授業in甲府南高校"
     },
     {
-      "date_label": "7/25.26",
-      "html": "すいかばマンコンテスト"
+      "date_label": "7/24-25",
+      "html": "埼玉スタジアム2002小学生自由研究プロジェクト"
+    },
+    {
+      "date_label": "7/25-26",
+      "html": "全国高等学校夏の協働探究コンテスト"
     }
   ]
 }
