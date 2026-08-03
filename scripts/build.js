@@ -1,10 +1,20 @@
 /**
- * build.js
+ * build.js  v1.1
  * data/calendar-data.json を読み込み、月間カレンダーHTMLを生成する。
  * 出力デザインは確定版PDF（v31系・210×258mm）を完全再現する。
  *
  * 使い方:  node scripts/build.js
  * 出力:    output/calendar_<year>_<month>.html
+ *
+ * --- 変更履歴 ---
+ * v1.1 (2026-08-03)
+ *   - 週数を自動化。6週必要な月（例:2026年8月）で最終週が切れる不具合を修正。
+ *     .calendar に data-weeks と grid-template-rows をインライン出力する。
+ *   - message.advisor / message.coach は text が空なら枠ごと出力しない。
+ *     両方空なら message-card そのものを出さない。
+ *   - PICK UP が6件以上の月は .timeline-card に dense を付与し行間を圧縮。
+ *   - date_label が日付型（ISO文字列）で渡ってきた場合に M/D へ正規化。
+ * v1.0  初版
  */
 
 const fs = require('fs');
@@ -21,6 +31,30 @@ function escapeHtml(s) {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
+}
+
+/**
+ * date_label の正規化。
+ * スプレッドシート側でセルが日付型になっていると "2026-09-25T07:00:00.000Z" の
+ * ようなISO文字列で渡ってくるため、"9/25" に直す。
+ * タイムゾーンはシート設定によって変わる（UTC±12h以内）ため、12時間足してから
+ * UTC日付を取ることで、どのタイムゾーン設定でも意図した日付になる。
+ * "8/1-2" のような文字列はそのまま返す。
+ */
+function fmtDateLabel(v) {
+  if (v === null || v === undefined) return '';
+  let iso = null;
+  if (v instanceof Date) {
+    iso = v.toISOString();
+  } else {
+    const s = String(v).trim();
+    if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}/.test(s)) iso = s;
+    else return s;
+  }
+  const t = Date.parse(iso);
+  if (Number.isNaN(t)) return String(v).trim();
+  const d = new Date(t + 12 * 60 * 60 * 1000);
+  return `${d.getUTCMonth() + 1}/${d.getUTCDate()}`;
 }
 
 // 曜日（0=日, 6=土）。dailyの並びはMON始まりカレンダーに使う。
@@ -88,15 +122,18 @@ function buildCalendarGrid(year, month, dailyMap) {
     return `<div class="${cls.join(' ')}">${inner}</div>`;
   };
 
-  return weeks.map(w =>
+  const html = weeks.map(w =>
     `<div class="week-row">\n          ${w.map(renderDay).join('\n          ')}\n        </div>`
   ).join('\n\n        ');
+
+  // 週数はCSSのグリッド行数に反映する（5週固定だと6週の月が切れるため）
+  return { html, weekCount: weeks.length };
 }
 
 function buildPickup(pickup) {
   return pickup.map(p => {
     const cls = `tl-item${p.type ? ' ' + escapeHtml(p.type) : ''}`;
-    const dateLine = `${escapeHtml(p.date_label || '')}${p.time ? ' ' + escapeHtml(p.time) : ''}`;
+    const dateLine = `${escapeHtml(fmtDateLabel(p.date_label))}${p.time ? ' ' + escapeHtml(p.time) : ''}`;
     return `<div class="${cls}">
               <div class="tl-date">${dateLine}</div>
               <div class="tl-title">${escapeHtml(p.title || '')}</div>
@@ -108,7 +145,7 @@ function buildPickup(pickup) {
 function buildNext(next) {
   return next.map(n =>
     `<div class="next-item">
-            <div class="next-date">${escapeHtml(n.date_label || '')}</div>
+            <div class="next-date">${escapeHtml(fmtDateLabel(n.date_label))}</div>
             <div class="next-text">${n.html || ''}</div>
           </div>`
   ).join('\n          ');
@@ -126,19 +163,62 @@ function buildHTML(data) {
   }
 
   const css = fs.readFileSync(CSS_PATH, 'utf-8');
-  const calendarGrid = buildCalendarGrid(year, month, dailyMap);
-  const pickupHtml = buildPickup(data.pickup || []);
+  const grid = buildCalendarGrid(year, month, dailyMap);
+  const calendarGrid = grid.html;
+  const weekCount = grid.weekCount;
+  const pickupList = data.pickup || [];
+  const pickupHtml = buildPickup(pickupList);
   const nextHtml = buildNext(data.next || []);
   const ch = data.challenge || {};
   const msg = data.message || {};
   const adv = msg.advisor || {};
   const coach = msg.coach || {};
 
+  // PICK UP が多い月はサイドバーが溢れるため行間を圧縮する
+  const denseClass = pickupList.length >= 6 ? ' dense' : '';
+
+  // メッセージは text が入っているものだけ描画する（空枠を出さない）
+  const hasText = (o) => !!(o && typeof o.text === 'string' && o.text.trim() !== '');
+  const showAdv = hasText(adv);
+  const showCoach = hasText(coach);
+
+  const advHtml = showAdv ? `<div class="msg-item">
+            <div class="msg-avatar">
+              <div class="msg-avatar-icon">${escapeHtml(adv.icon || 'K')}</div>
+              <div class="msg-role">${escapeHtml(adv.role || '顧問')}</div>
+              <div class="msg-name">${escapeHtml(adv.name || '')}</div>
+            </div>
+            <div class="msg-bubble${adv.lang === 'en' ? ' lang-en' : ''}">${escapeHtml(adv.text || '')}</div>
+          </div>` : '';
+
+  const coachHtml = showCoach ? `<div class="msg-item coach">
+            <div class="msg-avatar">
+              <div class="msg-avatar-icon">${escapeHtml(coach.icon || 'M')}</div>
+              <div class="msg-role">${escapeHtml(coach.role || 'コーチ')}</div>
+              <div class="msg-name">${escapeHtml(coach.name || '')}</div>
+            </div>
+            <div class="msg-bubble${coach.lang === 'en' ? ' lang-en' : ''}">${escapeHtml(coach.text || '')}</div>
+          </div>` : '';
+
+  // 見出しは実際に出る人に合わせる（両方空ならカードごと非表示）
+  const msgHeadTitle = showAdv && showCoach ? '顧問・コーチより'
+    : showCoach ? 'コーチより' : '顧問より';
+
+  const messageCardHtml = (showAdv || showCoach) ? `<div class="message-card">
+        <div class="msg-head">
+          <div class="msg-head-title">${msgHeadTitle}</div>
+          <div class="msg-head-en">MESSAGE</div>
+        </div>
+        <div class="msg-body">
+          ${[advHtml, coachHtml].filter(Boolean).join('\n          ')}
+        </div>
+      </div>` : '';
+
   return `<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>${escapeHtml(meta.title_main || '放課後スクーミー部 カレンダー')} ${year}年${month}月</title>
+<title>${escapeHtml(meta.title_main || '放課後スクーミー部 カレンダー')} ${year}年${month}月 (build v1.1)</title>
 <style>
 @page { size: 210mm 258mm; margin: 0; }
 ${css}
@@ -172,7 +252,7 @@ ${css}
 
     <div class="cal-section">
 
-      <div class="calendar">
+      <div class="calendar" data-weeks="${weekCount}" style="grid-template-rows: auto repeat(${weekCount}, 1fr);">
         <div class="weekday-row">
           <div class="wd">MON</div>
           <div class="wd">TUE</div>
@@ -189,7 +269,7 @@ ${css}
 
     <div class="sidebar">
 
-      <div class="timeline-card">
+      <div class="timeline-card${denseClass}">
         <div class="tc-head">
           <div class="tc-head-title">PICK UP イベント</div>
           <div class="tc-head-num">${(data.pickup || []).length} EVENTS</div>
@@ -221,30 +301,7 @@ ${css}
         </div>
       </div>
 
-      <div class="message-card">
-        <div class="msg-head">
-          <div class="msg-head-title">顧問・コーチより</div>
-          <div class="msg-head-en">MESSAGE</div>
-        </div>
-        <div class="msg-body">
-          <div class="msg-item">
-            <div class="msg-avatar">
-              <div class="msg-avatar-icon">${escapeHtml(adv.icon || 'K')}</div>
-              <div class="msg-role">${escapeHtml(adv.role || '顧問')}</div>
-              <div class="msg-name">${escapeHtml(adv.name || '')}</div>
-            </div>
-            <div class="msg-bubble${adv.lang === 'en' ? ' lang-en' : ''}">${escapeHtml(adv.text || '')}</div>
-          </div>
-          <div class="msg-item coach">
-            <div class="msg-avatar">
-              <div class="msg-avatar-icon">${escapeHtml(coach.icon || 'M')}</div>
-              <div class="msg-role">${escapeHtml(coach.role || 'コーチ')}</div>
-              <div class="msg-name">${escapeHtml(coach.name || '')}</div>
-            </div>
-            <div class="msg-bubble${coach.lang === 'en' ? ' lang-en' : ''}">${escapeHtml(coach.text || '')}</div>
-          </div>
-        </div>
-      </div>
+      ${messageCardHtml}
 
       <div class="next-card">
         <div class="next-head">
