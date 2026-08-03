@@ -2,10 +2,15 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>スクーミーワールドカレンダー 2026年8月</title>
+<title>スクーミーワールドカレンダー 2026年8月 (build v1.1)</title>
 <style>
 @page { size: 210mm 258mm; margin: 0; }
 
+  /* styles.css v1.1 (2026-08-03)
+     - .calendar の行数は build.js がインラインで出力する（6週の月対策）。
+       ここの repeat(5,1fr) はフォールバック。
+     - .timeline-card.dense : PICK UP 6件以上の月の圧縮。
+     - .calendar[data-weeks="6"] : 6週の月のセル内圧縮。 */
   :root {
     --teal: #3AABA8;
     --teal-deep: #2A8A87;
@@ -147,7 +152,7 @@
   .calendar {
     flex: 1;
     display: grid;
-    grid-template-rows: auto repeat(5, 1fr);
+    grid-template-rows: auto repeat(5, 1fr); /* フォールバック。実際は build.js がインラインで週数を指定 */
     background: var(--gray-light);
     padding: 0.8mm;
     border-radius: 1.5mm;
@@ -228,6 +233,14 @@
   .ev-contents.webinar { background: rgba(232, 138, 10, 0.06); border-left-color: var(--orange); }
   .ev-contents.special { background: rgba(204, 68, 68, 0.06); border-left-color: var(--red); }
 
+  /* 6週必要な月は1行あたりの高さが約83%になるため、セル内を圧縮する。 */
+  .calendar[data-weeks="6"] .day { padding: 1.2mm 1mm; gap: 0.6mm; }
+  .calendar[data-weeks="6"] .day-h { min-height: 4mm; }
+  .calendar[data-weeks="6"] .d { font-size: 11.5pt; min-height: 4mm; }
+  .calendar[data-weeks="6"] .ev { font-size: 5.5pt; line-height: 1.25; padding: 0.4mm 0.7mm; }
+  .calendar[data-weeks="6"] .ev-contents { font-size: 4.9pt; line-height: 1.3; margin-top: 0.4mm; padding: 0.6mm 0.8mm; }
+  .calendar[data-weeks="6"] .ev-list { gap: 0.4mm; }
+
   .sidebar {
     display: flex;
     flex-direction: column;
@@ -285,6 +298,14 @@
   .tl-item.webinar .tl-date { color: var(--orange); }
   .tl-title { font-size: 7.8pt; font-weight: 700; margin: 0.4mm 0; line-height: 1.3; }
   .tl-meta { font-size: 6pt; color: var(--gray); line-height: 1.4; }
+
+  /* PICK UP が6件以上の月。build.js が .timeline-card に dense を付与する。 */
+  .timeline-card.dense .tc-body { padding: 1.4mm 3mm; }
+  .timeline-card.dense .tl-item { padding-bottom: 1.3mm; }
+  .timeline-card.dense .tl-item::before { width: 2.4mm; height: 2.4mm; top: 0.7mm; left: -3.8mm; }
+  .timeline-card.dense .tl-date { font-size: 6.4pt; }
+  .timeline-card.dense .tl-title { font-size: 7pt; margin: 0.25mm 0; line-height: 1.25; }
+  .timeline-card.dense .tl-meta { font-size: 5.5pt; line-height: 1.3; }
 
   .next-card {
     background: white;
@@ -485,6 +506,7 @@
   .footer-r { text-align: right; }
   .footer-l { font-size: 5.6pt; line-height: 1.3; }
 
+
 </style>
 </head>
 <body>
@@ -515,7 +537,7 @@
 
     <div class="cal-section">
 
-      <div class="calendar">
+      <div class="calendar" data-weeks="6" style="grid-template-rows: auto repeat(6, 1fr);">
         <div class="weekday-row">
           <div class="wd">MON</div>
           <div class="wd">TUE</div>
@@ -591,7 +613,7 @@
 
     <div class="sidebar">
 
-      <div class="timeline-card">
+      <div class="timeline-card dense">
         <div class="tc-head">
           <div class="tc-head-title">PICK UP イベント</div>
           <div class="tc-head-num">7 EVENTS</div>
@@ -659,7 +681,7 @@
 
       <div class="message-card">
         <div class="msg-head">
-          <div class="msg-head-title">顧問・コーチより</div>
+          <div class="msg-head-title">顧問より</div>
           <div class="msg-head-en">MESSAGE</div>
         </div>
         <div class="msg-body">
@@ -671,14 +693,6 @@
             </div>
             <div class="msg-bubble">夏休みは、勉強も遊びも全力で楽しめる特別な時間です。どちらも一生懸命取り組んだ経験が、未来の自分をつくっていきます。私はいつでも放課後スクーミー部で待ってますよ！</div>
           </div>
-          <div class="msg-item coach">
-            <div class="msg-avatar">
-              <div class="msg-avatar-icon">M</div>
-              <div class="msg-role">コーチ</div>
-              <div class="msg-name">マット先生</div>
-            </div>
-            <div class="msg-bubble lang-en"></div>
-          </div>
         </div>
       </div>
 
@@ -689,7 +703,7 @@
         </div>
         <div class="next-body">
           <div class="next-item">
-            <div class="next-date">2026-09-25T07:00:00.000Z</div>
+            <div class="next-date">9/25</div>
             <div class="next-text">スクーミーデイ秋2026</div>
           </div>
           <div class="next-item">
