@@ -1,12 +1,12 @@
 {
   "meta": {
     "year": 2026,
-    "month": 8,
-    "month_en": "August",
-    "month_jp": "葉月",
-    "issue_label": "2026年8月号",
-    "issue_no_short": "No. 08",
-    "publish_date": "2026.08.01",
+    "month": 9,
+    "month_en": "September",
+    "month_jp": "長月",
+    "issue_label": "2026年9月号",
+    "issue_no_short": "No. 09",
+    "publish_date": "2026.09.01",
     "title_main": "スクーミーワールドカレンダー",
     "title_sub": "／ 放課後スクーミー部予定表",
     "publisher": "株式会社スクーミー",
@@ -15,138 +15,7 @@
   },
   "daily": [
     {
-      "date": "2026-08-01",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "contest",
-          "title": "全国高等学校情報活用選手権大会 Day1",
-          "time": "9:00~16:00",
-          "contents": "データを活用した課題解決に挑みます"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "contest",
-          "title": "全国高等学校情報活用選手権大会 Day2",
-          "time": "9:00~16:00",
-          "contents": "データを活用した課題解決に挑みます"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-03",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "event",
-          "title": "カインズフェスタin蓮田店",
-          "time": "10:00~16:25",
-          "contents": "スクーミーの体験ができます"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-08-05",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-08-06",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-08-07",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-08-08",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "event",
-          "title": "カインズフェスタin幕張店",
-          "time": "10:00~16:25",
-          "contents": "スクーミーの体験ができます"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-08-10",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-08-11",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-08-12",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "event",
-          "title": "カインズフェスタin伊勢崎店",
-          "time": "10:00~16:25",
-          "contents": "スクーミーの体験ができます"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-08-14",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-08-15",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-08-16",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-08-17",
+      "date": "2026-09-01",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -159,7 +28,7 @@
       ]
     },
     {
-      "date": "2026-08-18",
+      "date": "2026-09-02",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -172,7 +41,7 @@
       ]
     },
     {
-      "date": "2026-08-19",
+      "date": "2026-09-03",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -185,13 +54,7 @@
       ]
     },
     {
-      "date": "2026-08-20",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-08-21",
+      "date": "2026-09-04",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -204,109 +67,293 @@
       ]
     },
     {
-      "date": "2026-08-22",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-08-23",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "event",
-          "title": "カインズフェスタin浦和美園店",
-          "time": "10:00~16:25",
-          "contents": "スクーミーの体験ができます"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-24",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "bukatsu",
-          "title": "放課後スクーミー部",
-          "time": "16:00-18:00",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "bukatsu",
-          "title": "放課後スクーミー部",
-          "time": "16:00-18:00",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "bukatsu",
-          "title": "放課後スクーミー部",
-          "time": "16:00-18:00",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "is_holiday": false,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-08-28",
+      "date": "2026-09-05",
       "is_holiday": true,
       "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-09-06",
+      "is_holiday": true,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-09-07",
+      "is_holiday": false,
+      "tag": "",
       "events": [
         {
           "type": "bukatsu",
           "title": "放課後スクーミー部",
           "time": "16:00-18:00",
           "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "is_holiday": true,
-      "tag": "",
-      "events": [
-        {
-          "type": "event",
-          "title": "ダイフェスタ2026キックオフイベント",
-          "time": "9:00-12:00",
-          "contents": "スクーミーのレクチャを受けることができます"
         },
         {
-          "type": "event",
-          "title": "カインズフェスタin岡山南店",
-          "time": "10:00~16:25",
-          "contents": "スクーミーの体験ができます"
+          "type": "special",
+          "title": "第2回全国高等学校エンゲージメントアワード2026 エントリー開始",
+          "time": "",
+          "contents": "エントリー受付がスタートします"
         }
       ]
     },
     {
-      "date": "2026-08-30",
+      "date": "2026-09-08",
       "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "is_holiday": true,
       "tag": "",
       "events": []
     },
     {
-      "date": "2026-08-31",
+      "date": "2026-09-13",
+      "is_holiday": true,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-09-14",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        },
+        {
+          "type": "special",
+          "title": "ダイフェスタ2026 予選大会 2次募集 結果発表",
+          "time": "",
+          "contents": "出場チームの発表を行います"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "is_holiday": true,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-09-20",
+      "is_holiday": true,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-09-21",
+      "is_holiday": true,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-09-22",
+      "is_holiday": true,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-09-23",
+      "is_holiday": true,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-09-24",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "is_holiday": false,
+      "tag": "スクーミーデイ",
+      "events": [
+        {
+          "type": "event",
+          "title": "スクーミーデイ2026秋",
+          "time": "16:00-18:00",
+          "contents": "エンゲージメントアワードのご案内／月刊みんなのダイブ新製品発表"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "is_holiday": true,
+      "tag": "ダイフェスタ",
+      "events": [
+        {
+          "type": "event",
+          "title": "西尾市未来フェスタ",
+          "time": "9:00~17:00",
+          "contents": "スクーミーの体験ができます"
+        },
+        {
+          "type": "contest",
+          "title": "ダイフェスタ2026 予選大会1",
+          "time": "9:00~17:00",
+          "contents": "オンラインで予選大会を行います"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "is_holiday": true,
+      "tag": "ダイフェスタ",
+      "events": [
+        {
+          "type": "contest",
+          "title": "ダイフェスタ2026 予選大会2",
+          "time": "9:00~17:00",
+          "contents": "オンラインで予選大会を行います"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        },
+        {
+          "type": "special",
+          "title": "ダイフェスタ2026 本戦 敗者復活 結果発表",
+          "time": "",
+          "contents": "本戦出場チームの追加発表を行います"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-30",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -321,60 +368,32 @@
   ],
   "pickup": [
     {
+      "type": "event",
+      "date_label": "9/25（金）",
+      "time": "16:00-18:00",
+      "title": "スクーミーデイ2026秋",
+      "meta": "オンライン／エンゲージメントアワード告知・月刊みんなのダイブ新製品発表"
+    },
+    {
       "type": "contest",
-      "date_label": "8/1-2",
-      "time": "9:00~16:00",
-      "title": "全国高等学校情報活用選手権大会2026",
-      "meta": "オンライン/２日間の課題解決プログラム"
+      "date_label": "9/26-27（土日）",
+      "time": "9:00~17:00",
+      "title": "第4回全国高等学校eDIY選手権大会 ダイフェスタ2026 予選大会",
+      "meta": "オンライン／一般社団法人 Mt.Fuji イノベーションエンジン"
     },
     {
       "type": "event",
-      "date_label": "8/3",
-      "time": "10:00~16:25",
-      "title": "カインズフェスタ in 蓮田店",
-      "meta": "カインズ蓮田店/スクーミー体験あり"
-    },
-    {
-      "type": "event",
-      "date_label": "8/8",
-      "time": "10:00~16:25",
-      "title": "カインズフェスタ in 幕張店",
-      "meta": "カインズ幕張店/スクーミー体験あり"
-    },
-    {
-      "type": "event",
-      "date_label": "8/12",
-      "time": "10:00~16:25",
-      "title": "カインズフェスタ in 伊勢崎店",
-      "meta": "カインズ伊勢崎店/スクーミー体験あり"
-    },
-    {
-      "type": "event",
-      "date_label": "8/23",
-      "time": "10:00~16:25",
-      "title": "カインズフェスタ in 浦和美園店",
-      "meta": "カインズ浦和美園店/スクーミー体験あり"
-    },
-    {
-      "type": "event",
-      "date_label": "8/29",
-      "time": "10:00~16:25",
-      "title": "カインズフェスタ in 岡山南店",
-      "meta": "カインズ岡山南店/スクーミー体験あり"
-    },
-    {
-      "type": "event",
-      "date_label": "8/29",
-      "time": "9:00-12:00",
-      "title": "ダイフェスタ2026キックオフイベント",
-      "meta": "スクーミーのレクチャを受けることができます"
+      "date_label": "9/26（土）",
+      "time": "9:00~17:00",
+      "title": "西尾市未来フェスタ",
+      "meta": "愛知県西尾市／西尾青年会議所"
     }
   ],
   "challenge": {
     "thema_prefix": "",
-    "thema_em": "8月は「熱中症の季節」",
-    "thema_desc": "同じ35℃でも、湿度や風の違いによって暑さの感じ方は大きく変わります。熱中症は、気象データから予測できる身近な自然現象の一つです。",
-    "mission_html": "朝・昼・夕方で気温や湿度はどのように変わるだろう？ 気温だけでなく湿度にも注目！ 暑さ指数（WBGT）の考え方に触れながら、安全な環境について考えてみよう。",
+    "thema_em": "9月は「台風の季節」",
+    "thema_desc": "9月は、南の海で生まれた台風が日本付近に近づきやすい時期です。台風の中心では気圧が大きく下がり、通過したあとに一気に回復します。",
+    "mission_html": "複数のスクーミースポットを繋いで<strong>「台風の進路観測」</strong>をしてみよう！ 気圧が下がり始めた時刻を各地で比べると、台風がどの方向から近づいてきたのかが見えてきます。気象庁の進路図と重ねると、データと空がぴったり繋がります。",
     "mission_note": ""
   },
   "message": {
@@ -383,24 +402,32 @@
       "role": "顧問",
       "name": "カズ先生",
       "lang": "ja",
-      "text": "夏休みは、勉強も遊びも全力で楽しめる特別な時間です。どちらも一生懸命取り組んだ経験が、未来の自分をつくっていきます。私はいつでも放課後スクーミー部で待ってますよ！"
+      "text": "9月は、夏に集めたデータやアイデアを「かたちにする」月です。ダイフェスタの予選も、スクーミーデイもすぐそこ。うまくいかなかった試行錯誤こそ、いちばん強い材料になります。私はいつでも放課後スクーミー部で待ってますよ！"
     },
     "coach": {
       "icon": "M",
       "role": "コーチ",
       "name": "マット先生",
       "lang": "en",
-      "text": ""
+      "text": "September is the month to look back at your summer data and ask new questions. A result you didn't expect is not a failure — it is the start of a better project. Let's keep measuring, comparing, and connecting!"
     }
   },
   "next": [
     {
-      "date_label": "2026-09-25T07:00:00.000Z",
-      "html": "スクーミーデイ秋2026"
+      "date_label": "10/4",
+      "html": "<strong>デジタルの日2026 in 鹿児島</strong>（鹿児島県鹿児島市）"
     },
     {
-      "date_label": "9/26-27",
-      "html": "ダイフェスタ予選会"
+      "date_label": "10/10",
+      "html": "（企画中）<strong>宇宙フェスタ</strong>（長野県佐久市）"
+    },
+    {
+      "date_label": "10/24-25",
+      "html": "<strong>ATCロボットストリート</strong>（大阪府南港）"
+    },
+    {
+      "date_label": "10/31",
+      "html": "<strong>ダイフェスタ2026 本戦大会</strong>（山梨県甲府市）"
     }
   ]
 }
