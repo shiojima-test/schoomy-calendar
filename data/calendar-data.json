@@ -1,12 +1,12 @@
 {
   "meta": {
     "year": 2026,
-    "month": 9,
-    "month_en": "September",
-    "month_jp": "長月",
-    "issue_label": "2026年9月号",
-    "issue_no_short": "No. 09",
-    "publish_date": "2026.09.01",
+    "month": 10,
+    "month_en": "October",
+    "month_jp": "神無月",
+    "issue_label": "2026年10月号",
+    "issue_no_short": "No. 10",
+    "publish_date": "2026.10.01",
     "title_main": "スクーミーワールドカレンダー",
     "title_sub": "／ 放課後スクーミー部予定表",
     "publisher": "株式会社スクーミー",
@@ -15,7 +15,13 @@
   },
   "daily": [
     {
-      "date": "2026-09-01",
+      "date": "2026-10-01",
+      "is_holiday": false,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-10-02",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -28,309 +34,26 @@
       ]
     },
     {
-      "date": "2026-09-02",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "bukatsu",
-          "title": "放課後スクーミー部",
-          "time": "16:00-18:00",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-09-03",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "bukatsu",
-          "title": "放課後スクーミー部",
-          "time": "16:00-18:00",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "bukatsu",
-          "title": "放課後スクーミー部",
-          "time": "16:00-18:00",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-09-05",
+      "date": "2026-10-03",
       "is_holiday": true,
       "tag": "",
       "events": []
     },
     {
-      "date": "2026-09-06",
-      "is_holiday": true,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-09-07",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "bukatsu",
-          "title": "放課後スクーミー部",
-          "time": "16:00-18:00",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "bukatsu",
-          "title": "放課後スクーミー部",
-          "time": "16:00-18:00",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "bukatsu",
-          "title": "放課後スクーミー部",
-          "time": "16:00-18:00",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-09-10",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "bukatsu",
-          "title": "放課後スクーミー部",
-          "time": "16:00-18:00",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "bukatsu",
-          "title": "放課後スクーミー部",
-          "time": "16:00-18:00",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "is_holiday": true,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-09-13",
-      "is_holiday": true,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-09-14",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "bukatsu",
-          "title": "放課後スクーミー部",
-          "time": "16:00-18:00",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "bukatsu",
-          "title": "放課後スクーミー部",
-          "time": "16:00-18:00",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "bukatsu",
-          "title": "放課後スクーミー部",
-          "time": "16:00-18:00",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "bukatsu",
-          "title": "放課後スクーミー部",
-          "time": "16:00-18:00",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "bukatsu",
-          "title": "放課後スクーミー部",
-          "time": "16:00-18:00",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-09-19",
-      "is_holiday": true,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-09-20",
-      "is_holiday": true,
-      "tag": "",
-      "events": []
-    },
-    {
-      "date": "2026-09-21",
-      "is_holiday": true,
-      "tag": "",
-      "events": [
-        {
-          "type": "holiday",
-          "title": "敬老の日",
-          "time": "",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "is_holiday": true,
-      "tag": "",
-      "events": [
-        {
-          "type": "holiday",
-          "title": "国民の休日",
-          "time": "",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "is_holiday": true,
-      "tag": "",
-      "events": [
-        {
-          "type": "holiday",
-          "title": "秋分の日",
-          "time": "",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "bukatsu",
-          "title": "放課後スクーミー部",
-          "time": "16:00-18:00",
-          "contents": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "is_holiday": false,
-      "tag": "",
-      "events": [
-        {
-          "type": "event",
-          "title": "スクーミーデイ2026秋",
-          "time": "16:00-18:00",
-          "contents": "スクーミーの新サービスのお披露目！"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-26",
+      "date": "2026-10-04",
       "is_holiday": true,
       "tag": "",
       "events": [
         {
           "type": "event",
-          "title": "西尾市未来フェスタ",
+          "title": "デジタルの日 in 鹿児島",
           "time": "9:00~17:00",
-          "contents": "スクーミーの体験ができます"
-        },
-        {
-          "type": "contest",
-          "title": "ダイフェスタ2026 予選大会1",
-          "time": "9:00~17:00",
-          "contents": "オンラインで予選大会を行います"
+          "contents": "ローリングローバーと自販機のワークショップを行います"
         }
       ]
     },
     {
-      "date": "2026-09-27",
-      "is_holiday": true,
-      "tag": "",
-      "events": [
-        {
-          "type": "contest",
-          "title": "ダイフェスタ2026 予選大会2",
-          "time": "9:00~17:00",
-          "contents": "オンラインで予選大会を行います"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-28",
+      "date": "2026-10-05",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -342,14 +65,128 @@
         },
         {
           "type": "special",
-          "title": "ダイフェスタ2026 本戦 敗者復活 結果発表",
+          "title": "ダイフェスタ 予選 第2日程 結果発表",
           "time": "",
-          "contents": "本戦出場チームの追加発表を行います"
+          "contents": "通過チームを発表します"
         }
       ]
     },
     {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        },
+        {
+          "type": "contest",
+          "title": "ダイフェスタ 予選 第3日程",
+          "time": "16:00-18:00",
+          "contents": "オンラインでピッチ審査"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        },
+        {
+          "type": "contest",
+          "title": "ダイフェスタ 予選 第3日程",
+          "time": "16:00-18:00",
+          "contents": "オンラインでピッチ審査"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "contest",
+          "title": "ダイフェスタ 予選 第3日程",
+          "time": "16:00-18:00",
+          "contents": "オンラインでピッチ審査"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        },
+        {
+          "type": "contest",
+          "title": "ダイフェスタ 予選 第3日程",
+          "time": "16:00-18:00",
+          "contents": "オンラインでピッチ審査"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "is_holiday": true,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-10-11",
+      "is_holiday": true,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-10-12",
+      "is_holiday": true,
+      "tag": "",
+      "events": [
+        {
+          "type": "holiday",
+          "title": "スポーツの日",
+          "time": "",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        },
+        {
+          "type": "special",
+          "title": "ダイフェスタ 本戦出場チーム発表",
+          "time": "",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -362,7 +199,13 @@
       ]
     },
     {
-      "date": "2026-09-30",
+      "date": "2026-10-15",
+      "is_holiday": false,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-10-16",
       "is_holiday": false,
       "tag": "",
       "events": [
@@ -371,6 +214,185 @@
           "title": "放課後スクーミー部",
           "time": "16:00-18:00",
           "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "is_holiday": true,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-10-18",
+      "is_holiday": true,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-10-19",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "is_holiday": false,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-10-23",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "is_holiday": true,
+      "tag": "",
+      "events": [
+        {
+          "type": "event",
+          "title": "ATCロボットストリート",
+          "time": "9:00~17:00",
+          "contents": "ローリングローバーの体験ができます"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "is_holiday": true,
+      "tag": "",
+      "events": [
+        {
+          "type": "event",
+          "title": "ATCロボットストリート",
+          "time": "9:00~17:00",
+          "contents": "ローリングローバーの体験ができます"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "is_holiday": false,
+      "tag": "",
+      "events": []
+    },
+    {
+      "date": "2026-10-30",
+      "is_holiday": false,
+      "tag": "",
+      "events": [
+        {
+          "type": "bukatsu",
+          "title": "放課後スクーミー部",
+          "time": "16:00-18:00",
+          "contents": ""
+        },
+        {
+          "type": "event",
+          "title": "九州産業大学 VISION DAY",
+          "time": "11:00~17:30",
+          "contents": "スクーミー×スポーツのブース"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "is_holiday": true,
+      "tag": "",
+      "events": [
+        {
+          "type": "contest",
+          "title": "ダイフェスタ 本戦大会",
+          "time": "8:30~17:30",
+          "contents": "山梨大学で本戦を行います"
+        },
+        {
+          "type": "event",
+          "title": "九州産業大学 VISION DAY",
+          "time": "10:00~16:00",
+          "contents": "スクーミー×スポーツのブース"
         }
       ]
     }
@@ -378,31 +400,38 @@
   "pickup": [
     {
       "type": "event",
-      "date_label": "9/25（金）",
-      "time": "16:00-18:00",
-      "title": "スクーミーデイ2026秋",
-      "meta": "オンライン／エンゲージメントアワード告知・月刊みんなのダイブ新製品発表"
-    },
-    {
-      "type": "contest",
-      "date_label": "9/26-27（土日）",
+      "date_label": "10/4（日）",
       "time": "9:00~17:00",
-      "title": "第4回全国高等学校eDIY選手権大会 ダイフェスタ2026 予選大会",
-      "meta": "オンライン／一般社団法人 Mt.Fuji イノベーションエンジン"
+      "title": "デジタルの日2026 in 鹿児島",
+      "meta": "鹿児島市／鹿児島市・鹿児島銀行ほか"
     },
     {
       "type": "event",
-      "date_label": "9/26（土）",
+      "date_label": "10/24-25（土日）",
       "time": "9:00~17:00",
-      "title": "西尾市未来フェスタ",
-      "meta": "愛知県西尾市／西尾青年会議所"
+      "title": "ATCロボットストリート",
+      "meta": "大阪府大阪市（南港）／ATC"
+    },
+    {
+      "type": "event",
+      "date_label": "10/30-31（金土）",
+      "time": "",
+      "title": "九州産業大学 VISION DAY 文×理×芸＝展",
+      "meta": "福岡県福岡市／スクーミー×スポーツのブース"
+    },
+    {
+      "type": "contest",
+      "date_label": "10/31（土）",
+      "time": "8:30~17:30",
+      "title": "第4回全国高等学校eDIY選手権大会 ダイフェスタ2026 本戦大会",
+      "meta": "山梨大学（甲府市）／オンライン観覧あり"
     }
   ],
   "challenge": {
     "thema_prefix": "",
-    "thema_em": "9月は「台風の季節」",
-    "thema_desc": "9月は、南の海で生まれた台風が日本付近に近づきやすい時期です。台風の中心では気圧が大きく下がり、通過したあとに一気に回復します。",
-    "mission_html": "複数のスクーミースポットを繋いで<strong>「台風の進路観測」</strong>をしてみよう！ 気圧が下がり始めた時刻を各地で比べると、台風がどの方向から近づいてきたのかが見えてきます。気象庁の進路図と重ねると、データと空がぴったり繋がります。",
+    "thema_em": "10月は「寒暖差の季節」",
+    "thema_desc": "晴れた日の昼と夜で気温の差が大きくなる時期です。雲のない夜は地面の熱が空へ逃げ、明け方に冷え込みます（放射冷却）。",
+    "mission_html": "複数のスクーミースポットを繋いで<strong>「寒暖差マップ」</strong>をつくってみよう！ 温度センサーで1日の最高気温と最低気温を記録し、各地の差を比べます。晴れの日とくもりの日でも比べてみよう。",
     "mission_note": ""
   },
   "message": {
@@ -411,28 +440,28 @@
       "role": "顧問",
       "name": "カズ先生",
       "lang": "ja",
-      "text": "9月は、夏に集めたデータやアイデアを「かたちにする」月です。ダイフェスタの予選も、スクーミーデイもすぐそこ。うまくいかなかった試行錯誤こそ、いちばん強い材料になります。私はいつでも放課後スクーミー部で待ってますよ！"
+      "text": "10月はダイフェスタ本戦の月です。作品を仕上げているチームは、放課後スクーミー部で見せ合いましょう。発表の練習相手になりますよ！"
     },
     "coach": {
       "icon": "M",
       "role": "コーチ",
       "name": "マット先生",
       "lang": "en",
-      "text": "September is the month to look back at your summer data and ask new questions. A result you didn't expect is not a failure — it is the start of a better project. Let's keep measuring, comparing, and connecting!"
+      "text": "Record the highest and lowest temperatures every day and compare them with other schools. Good luck to every team in the DAIFESTA finals!"
     }
   },
   "next": [
     {
-      "date_label": "2026-10-04T07:00:00.000Z",
-      "html": "デジタルの日2026 in 鹿児島（鹿児島県鹿児島市）"
+      "date_label": "11/1",
+      "html": "ダイフェスタ2026 競技大会＆交流会（甲府市）"
     },
     {
-      "date_label": "10/24-25",
-      "html": "ATCロボットストリート（大阪府南港）"
+      "date_label": "11/7-8",
+      "html": "科学の祭典 ひたちなか大会（茨城県）"
     },
     {
-      "date_label": "2026-10-31T07:00:00.000Z",
-      "html": "ダイフェスタ2026 本戦大会（山梨県甲府市）"
+      "date_label": "11/14",
+      "html": "衛星設計コンテスト 企業展示（宇都宮市）"
     }
   ]
 }
