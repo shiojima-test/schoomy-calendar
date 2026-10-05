@@ -403,14 +403,14 @@
       "date_label": "10/4（日）",
       "time": "9:00~17:00",
       "title": "デジタルの日2026 in 鹿児島",
-      "meta": "鹿児島市／鹿児島市・鹿児島銀行ほか"
+      "meta": "鹿児島県鹿児島市／鹿児島市・鹿児島銀行・かごしまデジタルスマートシティ推進協議会"
     },
     {
       "type": "event",
       "date_label": "10/24-25（土日）",
       "time": "9:00~17:00",
       "title": "ATCロボットストリート",
-      "meta": "大阪府大阪市（南港）／ATC"
+      "meta": "大阪府大阪市（南港）／ATC（アジア太平洋トレードセンター株式会社）"
     },
     {
       "type": "event",
@@ -424,7 +424,7 @@
       "date_label": "10/31（土）",
       "time": "8:30~17:30",
       "title": "第4回全国高等学校eDIY選手権大会 ダイフェスタ2026 本戦大会",
-      "meta": "山梨大学（甲府市）／オンライン観覧あり"
+      "meta": "山梨大学（山梨県甲府市）／一般社団法人 Mt.Fuji イノベーションエンジン・オンライン観覧あり"
     }
   ],
   "challenge": {
@@ -447,21 +447,21 @@
       "role": "コーチ",
       "name": "マット先生",
       "lang": "en",
-      "text": "Record the highest and lowest temperatures every day and compare them with other schools. Good luck to every team in the DAIFESTA finals!"
+      "text": ""
     }
   },
   "next": [
     {
       "date_label": "11/1",
-      "html": "ダイフェスタ2026 競技大会＆交流会（甲府市）"
+      "html": "ダイフェスタ2026 競技大会＆交流会（山梨県甲府市）"
     },
     {
       "date_label": "11/7-8",
-      "html": "科学の祭典 ひたちなか大会（茨城県）"
+      "html": "青少年のための科学の祭典 第16回ひたちなか大会（茨城県ひたちなか市）"
     },
     {
       "date_label": "11/14",
-      "html": "衛星設計コンテスト 企業展示（宇都宮市）"
+      "html": "第34回 衛星設計コンテスト 最終審査会 企業展示（栃木県宇都宮市）"
     }
   ]
 }
